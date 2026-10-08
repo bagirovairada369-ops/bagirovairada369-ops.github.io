@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Багирова Ирада — Визитка</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+      color: #333;
+      line-height: 1.6;
+      padding: 20px;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      background: #fff;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      overflow: hidden;
+    }
+    header {
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      color: #fff;
+      padding: 40px 30px;
+      text-align: center;
+    }
+    header h1 { font-size: 2em; margin-bottom: 8px; }
+    header p { opacity: 0.9; }
+    .photos {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 30px;
+      flex-wrap: wrap;
+    }
+    .photos img {
+      width: 180px;
+      height: 240px;
+      object-fit: cover;
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+      transition: transform 0.3s;
+    }
+    .photos img:hover { transform: scale(1.05); }
+    section { padding: 25px 30px; border-top: 1px solid #eee; }
+    section h2 {
+      color: #667eea;
+      margin-bottom: 12px;
+      font-size: 1.4em;
+    }
+    ul { padding-left: 20px; }
+    ul li { margin-bottom: 6px; }
+    .tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+    .tag {
+      background: #eef1ff;
+      color: #4a5cd0;
+      padding: 5px 12px;
+      border-radius: 20px;
+      font-size: 0.9em;
+    }
+    .contacts a {
+      display: inline-block;
+      margin: 6px 12px 6px 0;
+      color: #667eea;
+      text-decoration: none;
+      font-weight: 600;
+      padding: 8px 16px;
+      border: 2px solid #667eea;
+      border-radius: 25px;
+      transition: all 0.3s;
+    }
+    .contacts a:hover {
+      background: #667eea;
+      color: #fff;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.85em;
+      color: #888;
+      background: #fafafa;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Багирова Ирада</h1>
+      <p>Студентка 2 курса УлГТУ</p>
+    </header>
+
+    <div class="photos">
+      <img src="https://sun9-70.vkuserphoto.ru/s/v1/ig2/sFS1zH00_NFiWUM1N-IlLaCpeil4IumJ3zedDeOo0-Q2p_9FPvdpaakJxQLnwUNSSNYq-sEDMlclw_OK9mg7UR1y.jpg?quality=95&as=32x43,48x64,72x96,108x144,160x213,240x320,360x480,480x640,540x720,640x853,720x960,1080x1440,1280x1707,1440x1920,1920x2560&from=bu&u=i83nt1c-t49z5-5wbM5-6r5Ma23wysrTbPGSxcKz22U&cs=1920x0" alt="Фото 1">
+      <img src="https://sun9-52.vkuserphoto.ru/s/v1/ig2/ly5SAbj7e9PGRg0SAzVh9IoF2Y8E5C-x-vaQMmFmd1BNs4kY6yvZmVaIkxdCHxI7b7I5MZiqnEaGWdlJYa2cC2C1.jpg?quality=95&as=32x43,48x64,72x96,108x144,160x213,240x320,360x480,480x640,540x720,640x853,720x960,1080x1440,1280x1707,1440x1920,1920x2560&from=bu&cs=1920x0" alt="Фото 2">
+    </div>
+
+    <section>
+      <h2>О себе</h2>
+      <p>Привет! Я Багирова Ирада, студентка 2 курса УлГТУ.</p>
+      <p style="margin-top:8px;"><strong>Интересуюсь:</strong></p>
+      <div class="tags">
+        <span class="tag">🍳 Кулинария</span>
+        <span class="tag">📿 Бисероплетение</span>
+        <span class="tag">🎲 Настольные игры</span>
+      </div>
+    </section>
+
+    <section>
+      <h2>Навыки</h2>
+      <ul>
+        <li><strong>Языки:</strong> русский, азербайджанский, турецкий</li>
+        <li><strong>Специализированное ПО:</strong> Adobe Photoshop, 1С, Jira</li>
+        <li><strong>Коммуникативные навыки:</strong> активное слушание, ведение переговоров, публичные выступления</li>
+        <li><strong>Личные качества:</strong> адаптивность, гибкость, стрессоустойчивость</li>
+      </ul>
+    </section>
+
+    <section class="contacts">
+      <h2>Контакты</h2>
+      <a href="mailto:irada.bagirova73aze@mail.ru">✉️ Email</a>
+      <a href="https://github.com/bagirovairada369-ops" target="_blank">💻 GitHub</a>
+      <a href="https://vk.ru/bagirova_i" target="_blank">💬 ВКонтакте</a>
+    </section>
+
+    <footer>© 2025 Багирова Ирада</footer>
+  </div>
+</body>
+</html>
